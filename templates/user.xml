@@ -14,4 +14,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="newfc" value="import React from 'react'&#10;import styled from 'styled-components'&#10;import styleVariables from ''&#10;&#10;&#10;const Wrapper = styled.div`&#10;&#10;`&#10;&#10;const FunctionalComponent = () =&gt; (&#10;  &lt;Wrapper&gt;&#10;&#10;  &lt;/Wrapper&gt;&#10;)&#10;&#10;export default FunctionalComponent" description="template for functional component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
