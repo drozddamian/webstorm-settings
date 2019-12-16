@@ -349,4 +349,39 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="us" value="const [$state$, set$setState$] = useState($initState$)$END$" description="useState" toReformat="true" toShortenFQNames="true">
+    <variable name="state" expression="" defaultValue="&quot;state&quot;" alwaysStopAt="true" />
+    <variable name="setState" expression="capitalize(state)" defaultValue="" alwaysStopAt="true" />
+    <variable name="initState" expression="" defaultValue="&quot;initState&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ue" value="useEffect(() =&gt; {&#10;  $effect$&#10;  return () =&gt; {&#10;    $unmount$&#10;  }&#10;}, [$input$])&#10;$END$" description="useEffect" toReformat="true" toShortenFQNames="true">
+    <variable name="effect" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="unmount" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ur" value="const [state, dispatch] = useReducer($reducer$, $initialState$, $init$)$END$" description="useReducer" toReformat="true" toShortenFQNames="true">
+    <variable name="reducer" expression="" defaultValue="&quot;reducer&quot;" alwaysStopAt="true" />
+    <variable name="initialState" expression="" defaultValue="&quot;initialState&quot;" alwaysStopAt="true" />
+    <variable name="init" expression="" defaultValue="&quot;init&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="uRef" value="const $ref$ = useRef($initialValue$)$END$" description="useRef" toReformat="true" toShortenFQNames="true">
+    <variable name="ref" expression="" defaultValue="&quot;ref&quot;" alwaysStopAt="true" />
+    <variable name="initialValue" expression="" defaultValue="&quot;initialValue&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
