@@ -20,9 +20,20 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="iust" value="import { useTranslation } from ‘react-i18next’$END" description="import useTranslation" toReformat="false" toShortenFQNames="true" />
-  <template name="t" value="{t`$END$`}" description="Translate method" toReformat="false" toShortenFQNames="true" />
-  <template name="ust" value="const { t } = useTranslation(‘$EXPR$’, { useSuspense: false })" description="useTranslation" toReformat="false" toShortenFQNames="true">
+  <template name="iust" value="import { useTranslation } from 'react-i18next'" description="import useTranslation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="t" value="{t`$END$`}" description="Translate method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ust" value="const { t } = useTranslation('$EXPR$', { useSuspense: false })" description="useTranslation" toReformat="false" toShortenFQNames="true">
     <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
   </template>
 </templateSet>
