@@ -65,9 +65,39 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ustrict" value="&quot;use strict&quot;;&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
+  <template name="iust" value="import { useTranslation } from 'react-i18next'$END$" description="Import useTranslation" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JS_STATEMENT" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="t" value="{t`$END$`}" description="i18n trans" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="isc" value="import styled from 'styled-components'" description="Import styled components" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="irn" value="import { View } from 'react-native'$END$" description="import react-native" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="irea" value="import React from 'react'$END$" description="import react" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="usn" value="const navigation = useNavigation()$END$" description="Use navigation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="iusn" value="import { useNavigation } from '@react-navigation/native';$END$" description="import Use navigation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
     </context>
   </template>
 </templateSet>
