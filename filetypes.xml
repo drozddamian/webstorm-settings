@@ -2,9 +2,9 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="woff2" type="Native" />
-      <mapping pattern="robots" type="PLAIN_TEXT" />
       <mapping pattern="useFlashAnimation.js" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping pattern="robots" type="PLAIN_TEXT" />
       <mapping pattern="useRoomInvitationInit" type="PLAIN_TEXT" />
       <mapping ext="hprof" type="PLAIN_TEXT" />
     </extensionMap>
