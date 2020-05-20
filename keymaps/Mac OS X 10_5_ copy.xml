@@ -10,6 +10,7 @@
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="Exit" />
+  <action id="InsertLiveTemplate" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
@@ -18,6 +19,9 @@
   </action>
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift alt n" />
+  </action>
+  <action id="NewJavaScriptFile">
+    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="NewTypeScriptFile">
     <keyboard-shortcut first-keystroke="meta t" />
