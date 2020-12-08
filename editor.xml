@@ -29,4 +29,7 @@
   <component name="LiveEditOptions" nodeUpdateOnChanges="true" useJBChromeExtension="true">
     <option name="elementHighlighting" value="true" />
   </component>
+  <component name="XmlEditorOptions">
+    <option name="showCssInlineColorPreview" value="true" />
+  </component>
 </application>
