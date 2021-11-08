@@ -38,9 +38,13 @@
           <option name="url" value="http://git.heroku.com" />
           <option name="userName" value="damiandrozd" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/drozddamian/nestjscourse.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Documents/Workspace" />
+    <option name="cloneParentDir" value="$USER_HOME$/Documents/PrivateWorkspace" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
